@@ -1,0 +1,105 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "User is on the Reporting Methods Page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 29597141700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user has logged in",
+            "match": {
+              "location": "reportingmethods.StepDefAddReportingMethod.user_has_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4253632700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user reaches Reporting Methods Page from Home Page",
+            "match": {
+              "location": "reportingmethods.StepDefAddReportingMethod.user_reaches_reporting_methods_page_from_home_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-22T11:22:39.756Z",
+        "line": 9,
+        "name": "User can add a new Reporting Method",
+        "description": "",
+        "id": "check-addition-of-a-new-reporting-method;user-can-add-a-new-reporting-method",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 394944100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user clicks on Add button",
+            "match": {
+              "location": "reportingmethods.StepDefAddReportingMethod.user_clicks_on_add_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 329119800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "enters a Name",
+            "match": {
+              "location": "reportingmethods.StepDefAddReportingMethod.enters_a_name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2296865400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "clicks on Save",
+            "match": {
+              "location": "reportingmethods.StepDefAddReportingMethod.clicks_on_save()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 666215900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "a new Reporting Method is added as message is displayed",
+            "match": {
+              "location": "reportingmethods.StepDefAddReportingMethod.a_new_reporting_method_is_added_as_message_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Check addition of a new Reporting Method",
+    "description": "",
+    "id": "check-addition-of-a-new-reporting-method",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/reportingmethods/addreportingmethod.feature",
+    "tags": []
+  }
+]

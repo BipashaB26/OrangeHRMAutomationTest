@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Report Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Report Test(failed)">
+    <classes>
+      <class name="reportingmethods.TestRunnerAddReportingMethod">
+        <methods>
+          <include name="runScenario" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- reportingmethods.TestRunnerAddReportingMethod -->
+      <class name="configurePIM.TestRunnerConfigurePIM">
+        <methods>
+          <include name="runScenario" invocation-numbers="2"/>
+          <include name="tearDownClass"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- configurePIM.TestRunnerConfigurePIM -->
+    </classes>
+  </test> <!-- Report Test(failed) -->
+</suite> <!-- Failed suite [Report Suite] -->

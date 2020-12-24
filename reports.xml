@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Report Suite" parallel="tests">
+	<test thread-count="5" name="Report Test">
+		<classes>
+			<class name="login.TestRunnerLogin"></class>
+			<class name="configurePIM.TestRunnerConfigurePIM" />
+			<class name="reportingmethods.TestRunnerAddReportingMethod"></class>
+		</classes>
+	</test><!-- Test -->
+</suite><!-- Suite -->

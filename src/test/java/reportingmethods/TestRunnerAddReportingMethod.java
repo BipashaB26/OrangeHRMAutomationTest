@@ -1,0 +1,19 @@
+package reportingmethods;
+
+import org.junit.runner.RunWith;
+import org.testng.annotations.DataProvider;
+
+import io.cucumber.junit.Cucumber;
+import io.cucumber.junit.CucumberOptions;
+import io.cucumber.testng.AbstractTestNGCucumberTests;
+
+@RunWith(Cucumber.class)
+@CucumberOptions(features="src/test/resources/reportingmethods", glue={"reportingmethods"}, monochrome=true, 
+                   plugin= {"html:target/cucumber-html-report", "json:target/cucumber.json",
+                		   "pretty:target/cucumber-pretty.txt","usage:target/cucumber-usage.json", 
+                		   "junit:target/cucumber-results.xml"})
+
+
+public class TestRunnerAddReportingMethod extends AbstractTestNGCucumberTests{
+
+}
